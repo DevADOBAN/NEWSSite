@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+}
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 24px 32px 0 32px;
+}
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.brand-news {
+    color: #c1272d;
+}
+.navbar {
+    display: flex;
+    gap: 16px;
+}
+.navbar button {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.termos-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    padding: 40px 48px 32px 48px;
+}
+.termos-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+.termos-destaque {
+    color: #c1272d;
+}
+.termos-content {
+    font-size: 1rem;
+    margin-bottom: 24px;
+}
+.termos-content ol {
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+.termos-content li {
+    margin-bottom: 8px;
+}
+.veja-tambem {
+    max-width: 900px;
+    margin: 32px auto 0 auto;
+}
+.veja-tambem h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.veja-cards {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.veja-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 16px 18px;
+    flex: 1 1 180px;
+    min-width: 200px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.tag {
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: #fff;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.mist { background: #c1272d; }
+.cultura { background: #c1272d; }
+.saude { background: #c1272d; }
+.vida { background: #c1272d; }
+.veja-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.veja-meta {
+    font-size: 0.85rem;
+    color: #888;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 32px;
+    margin-top: 48px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left {
+    max-width: 500px;
+}
+.footer-brand {
+    color: #888;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.footer-news {
+    color: #c1272d;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 22px;
+}
+.footer-links li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #c1272d;
+}
+.footer-bottom {
+    margin-top: 24px;
+    font-size: 0.85rem;
+    color: #bbb;
+}
+@media (max-width: 900px) {
+    .termos-container, .veja-tambem {
+        padding: 18px 6px;
+    }
+        .veja-cards {
+            flex-direction: column;
+        }
+    }

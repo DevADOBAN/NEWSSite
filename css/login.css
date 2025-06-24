@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #222;
+}
+header {
+    background: #fff;
+    padding: 24px 32px 0 32px;
+}
+.logo-login {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.login-destaque {
+    color: #c1272d;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 60vh;
+    margin-top: 40px;
+}
+.login-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    padding: 32px 48px;
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+.login-img img {
+    width: 320px;
+    border-radius: 12px;
+    display: block;
+}
+.login-form {
+    min-width: 320px;
+    max-width: 350px;
+}
+.login-form h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.login-form .login-destaque {
+    color: #c1272d;
+}
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.login-form input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+.login-form input:focus {
+    border: 1.5px solid #c1272d;
+}
+.login-form button {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s;
+}
+.login-form button:hover {
+    background: #c1272d;
+}
+.login-links {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 0.98rem;
+}
+.login-links a {
+    color: #c1272d;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 32px;
+    margin-top: 48px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left {
+    max-width: 500px;
+}
+.footer-brand {
+    color: #888;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.footer-news {
+    color: #c1272d;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 22px;
+}
+.footer-links li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #c1272d;
+}
+.footer-bottom {
+    margin-top: 24px;
+    font-size: 0.85rem;
+    color: #bbb;
+}
+@media (max-width: 900px) {
+    .login-container {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 24px 12px;
+        gap: 24px;
+    }
+    .login-img img {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}

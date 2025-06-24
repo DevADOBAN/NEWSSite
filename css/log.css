@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+}
+header {
+    padding: 24px 32px 0 32px;
+    background: #fff;
+}
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.logo span {
+    color: #c1272d;
+}
+.logo .logado {
+    color: #c1272d;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin: 8px 32px 0 0;
+}
+.navbar button {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.brand {
+    color: #c1272d;
+    font-weight: 700;
+}
+.main-content {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+.left, .right {
+    flex: 1;
+}
+.left h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.category {
+    background: #c1272d;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.img-destaque {
+    width: 100%;
+    border-radius: 8px;
+    margin: 16px 0;
+    object-fit: cover;
+    display: block;
+}
+.articles {
+    display: flex;
+    gap: 16px;
+    margin-top: 18px;
+}
+.article {
+    flex: 1;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 12px;
+}
+.article .tag {
+    background: #c1272d;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    padding: 2px 8px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.article-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px 0 6px 0;
+}
+.article-meta {
+    font-size: 0.8rem;
+    color: #888;
+}
+.ver-mais {
+    margin-top: 18px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right .side-article {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    align-items: flex-start;
+}
+.right .side-article img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.side-article-content {
+    flex: 1;
+}
+.side-article .tag {
+    background: #c1272d;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    padding: 2px 8px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+.side-article-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    margin: 4px 0;
+}
+.side-article-meta {
+    font-size: 0.75rem;
+    color: #888;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 32px;
+    margin-top: 32px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left {
+    max-width: 500px;
+}
+.footer-brand {
+    color: #c1272d;
+    font-weight: 700;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+.footer-links li:before {
+    content: "✔";
+    margin-right: 8px;
+    color: #c1272d;
+}
+.footer-bottom {
+    margin-top: 24px;
+    font-size: 0.85rem;
+    color: #fff;
+}
